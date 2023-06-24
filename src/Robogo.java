@@ -9,7 +9,7 @@ public class Robogo extends Jarmu implements KisGepjarmu {
 
     @Override
     public boolean gyorshajtotE(int sebessegKorlat) {
-        if (super.sebesseg > this.maxSebesseg) {
+        if (super.sebesseg < sebessegKorlat) {
             return false;
         }
         return true;
