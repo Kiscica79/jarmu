@@ -6,6 +6,8 @@ public class Main {
         System.out.println(vespa.haladhatItt(50));
         System.out.println(vespa.toString());
 
+        AudiS8 audi = new AudiS8(100, "AAA-222", true);
+        System.out.println(audi.gyorshajtotE(150));
 
     }
 }

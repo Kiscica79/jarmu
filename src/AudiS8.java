@@ -10,7 +10,7 @@ public class AudiS8 extends Jarmu {
 
     @Override
     public boolean gyorshajtotE(int sebessegKorlat) {
-        if (super.sebesseg > sebessegKorlat) {
+        if (super.sebesseg < sebessegKorlat) {
             return false;
         }
         if (lezerBlokkolo == true) {
