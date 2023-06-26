@@ -9,5 +9,6 @@ public class Main {
         AudiS8 audi = new AudiS8(100, "AAA-222", true);
         System.out.println(audi.gyorshajtotE(150));
 
+
     }
 }

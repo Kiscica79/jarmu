@@ -17,7 +17,7 @@ public class Robogo extends Jarmu implements KisGepjarmu {
 
     @Override
     public boolean haladhatItt(int sebesseg) {
-        if (maxSebesseg > sebesseg) {
+        if (maxSebesseg < sebesseg) {
             return false;
         }
         return true;
